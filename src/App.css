@@ -1,0 +1,148 @@
+/* ---------- PAGE ---------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  /* soft gradient background (eye friendly) */
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  color: #1f2937;
+}
+
+/* ---------- HEADING ---------- */
+h1 {
+  color: #2563eb;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+/* ---------- CHAT CONTAINER ---------- */
+div[style*="width: 300px"][style*="height: 400px"] {
+  background: white !important;
+  border-radius: 18px !important;
+  border: none !important;
+
+  /* clean card shadow */
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12) !important;
+
+  /* smooth open animation */
+  animation: cardFade 0.4s ease;
+}
+
+/* card animation */
+@keyframes cardFade {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- MESSAGE PANEL ---------- */
+div[style*="flex: 1"][style*="overflowY: auto"] {
+  background: linear-gradient(to bottom, #e0f2fe, #f0f9ff) !important;
+}
+
+/* ---------- YOUR MESSAGE ---------- */
+div[style*="background: #DCF8C6"] {
+  background: #2563eb !important; /* blue */
+  color: white !important;
+  border-radius: 16px 16px 4px 16px !important;
+  padding: 10px !important;
+
+  /* message animation */
+  animation: msgPop 0.25s ease;
+}
+
+/* ---------- OTHER MESSAGE ---------- */
+div[style*="background: #f1f0f0"] {
+  background: #f1f5f9 !important;
+  color: #111827 !important;
+  border-radius: 16px 16px 16px 4px !important;
+  padding: 10px !important;
+
+  animation: msgPop 0.25s ease;
+}
+
+/* message animation */
+@keyframes msgPop {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* ---------- USERNAME ---------- */
+div[style*="fontSize: 12px"][style*="fontWeight: bold"] {
+  color: #2563eb !important;
+  font-size: 12px !important;
+}
+
+/* ---------- INPUT AREA ---------- */
+div[style*="borderTop: 1px solid #ccc"] {
+  background: white !important;
+  border-top: 1px solid #e5e7eb !important;
+}
+
+/* ---------- MESSAGE INPUT ---------- */
+input[placeholder="Type message..."] {
+  background: #f8fafc !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 20px !important;
+  padding: 10px !important;
+  color: #111827 !important;
+}
+
+/* input focus */
+input[placeholder="Type message..."]:focus {
+  outline: none;
+  border-color: #2563eb !important;
+  box-shadow: 0 0 6px rgba(37,99,235,0.3);
+}
+
+/* ---------- USERNAME INPUT ---------- */
+input[placeholder="Enter your name"] {
+  background: white !important;
+  border: 1px solid #d1d5db !important;
+  color: #111827 !important;
+  border-radius: 10px !important;
+  padding: 8px !important;
+}
+
+/* ---------- BUTTON ---------- */
+button {
+  background: #2563eb !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 50% !important;
+  transition: 0.25s;
+}
+
+/* hover animation */
+button:hover {
+  transform: scale(1.1);
+  background: #1d4ed8 !important;
+}
+
+/* click animation */
+button:active {
+  transform: scale(0.9);
+}
+
+/* ---------- CLEAR BUTTON ---------- */
+button[style*="background: red"] {
+  background: #ef4444 !important;
+  border-radius: 10px !important;
+}
+
+button[style*="background: red"]:hover {
+  background: #dc2626 !important;
+}
+
+/* ---------- EMOJI PANEL ---------- */
+div[style*="position: absolute"][style*="bottom: 55px"] {
+  background: white !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ---------- TYPING TEXT ---------- */
+div[style*="minHeight: 20px"] p {
+  color: #16a34a !important;
+  font-size: 13px;
+}
