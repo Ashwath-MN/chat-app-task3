@@ -39,6 +39,8 @@ This project mainly focuses on frontend web development concepts such as compone
 # outputs
 # output 1 sender side
 <img width="671" height="846" alt="Image" src="https://github.com/user-attachments/assets/2a19e791-487d-4ce7-bd28-461d1481f566" />
+
 # output 2 Receiver side
+
 <img width="600" height="848" alt="Image" src="https://github.com/user-attachments/assets/d1cb9b46-fab6-49a7-9c9c-7d3eddf69723" />
 
