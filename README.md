@@ -38,8 +38,9 @@ This project mainly focuses on frontend web development concepts such as compone
 • Web Browser (Chrome) – For testing and running the application.
 # outputs
 # output 1 sender side
-<img width="671" height="846" alt="Image" src="https://github.com/user-attachments/assets/2a19e791-487d-4ce7-bd28-461d1481f566" />
+<img width="550" height="819" alt="Image" src="https://github.com/user-attachments/assets/872e2ed4-b287-430c-a74b-c7e501d2bc6c" />
 
 # output 2 Receiver side
-<img width="575" height="831" alt="Image" src="https://github.com/user-attachments/assets/649f8b2b-2b07-4a69-8098-1f0eae141d17" />
+
+<img width="586" height="831" alt="Image" src="https://github.com/user-attachments/assets/09c7fa74-3393-4f28-be27-5393c59aa4ed" />
 
